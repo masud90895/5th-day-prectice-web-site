@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+.conteinar{
+    display: flex;
+
+}
+.deit{
+    width: 50%;
+    font-size: 30px;
+    margin: 200px;
+}
+.deit h1{
+    font-size: 70px;
+    color:#575757;
+    margin-bottom: 30px;
+    
+}
+.deit span{
+    color: #12B3FB;
+}
+.deit p{
+    color:#575757;
+    margin-bottom: 50px;
+}
+.deit a{
+    text-decoration: none;
+    background-color: #12B3FB;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.image{
+    width: 50%;
+
+}
+.image img{
+    height: 792px;
+    width: 843.96px;
+}
