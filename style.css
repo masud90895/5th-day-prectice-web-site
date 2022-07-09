@@ -78,11 +78,7 @@
     border-radius: 15px;
 }
 .recipies{
-    margin-bottom: 50px;
-    margin-left: 30%
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    margin-bottom: 100px;
 }
 .recipies h1{
     color: #575757;
@@ -92,7 +88,89 @@
 }
 .recipies p{
     color: #575757;
-    font-size: 30px;
-    text-align: center;
-    width: 600px;
+    font-size: 25px;
+    width: 45%;
+    margin-left: 30%;
 }
+.halim-recipies{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 100px;
+}
+.halim-recipies div{
+    width: 610px;
+    height: 562px;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.halim-recipies div img{
+    width:610px;
+    height: 308px;
+    margin-bottom: 20px;
+}
+.halim-recipies div h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.halim-recipies div p{
+    font-size: 20px;
+    margin: 0px 20px 0 20px;
+}
+.subscribers{
+    margin-bottom: 100px;
+    display: flex;   
+    justify-content: space-around;
+    width: 1582px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 156px;
+}
+.subscribers div{
+    padding: 50px 20px;
+}
+.subscribers div h1{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+.subscribers div p{
+    font-size: 26px;
+}
+.footer-distributed{
+    background: black;
+    text-align: center;
+    padding: 55px 50px;
+  }
+   .footer{
+    width: 100%;
+  }
+  .footer-distributed h3{
+    color:  #ffffff;
+    font:36px;
+    margin: 0;
+    font-size: 30px;
+  }
+  .footer-distributed h3 span{
+    color:  tomato;
+  }
+ .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .copy-right{
+    color:  #222;
+    font-size: 20px;
+    margin: 0;
+  }
